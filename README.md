@@ -13,23 +13,27 @@
  * Author: Diego & Chaty & Copi & Dios
  */
 
-
+..........................................
 WP Shortcode form public display
 
 <img width="666" height="522" alt="image" src="https://github.com/user-attachments/assets/43256bde-d7a0-425c-a21c-da49f90875a1" />
 
+..........................................
 Request received admin dashboard display
 
 <img width="771" height="304" alt="image" src="https://github.com/user-attachments/assets/919b202c-1e68-4d58-a66d-933cd96f461f" />
 
+..........................................
 Calendar funcionality
 
 <img width="629" height="749" alt="image" src="https://github.com/user-attachments/assets/eb9dcccf-c3b6-4d3c-98ac-8654f117e328" />
 
+..........................................
 Specific values related to posts (dashboard admin edit)
 
 <img width="882" height="413" alt="image" src="https://github.com/user-attachments/assets/e0116896-76c9-4359-965d-e44a4210cb28" />
 
-Specific values related to posts (public display trought shortode related to key ('Campo'))
+..........................................
+Specific values related to posts (public display trought shortode related to key ('Clave'))
 
 <img width="863" height="388" alt="image" src="https://github.com/user-attachments/assets/f32495b7-9134-46b9-95ab-e5310edf7276" />
