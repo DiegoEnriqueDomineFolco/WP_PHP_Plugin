@@ -1,0 +1,142 @@
+/* Utilidades de alineación */
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.campos-dinamicos-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-campos-dinamicos {
+    margin-bottom: 10px;
+}
+
+/* Archivo de estilos globales para el admin de los plugins
+ * Unifica badges, tablas, cabeceras, botones, notificaciones, etc.
+ * Migrar aquí todos los estilos que deban ser compartidos entre módulos.
+ */
+
+/* Globito rojo para el badge de nuevos registros */
+.count-badge {
+    display: inline-block;
+    min-width: 18px;
+    padding: 0px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background: #e74c3c;
+    border-radius: 12px;
+    margin-left: 6px;
+    vertical-align: middle;
+    line-height: 1.2;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+}
+
+/* Estilos para tablas tipo WordPress admin */
+.wp-list-table th.manage-column {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.wp-list-table .column-title a.row-title {
+    color: #0073aa;
+    font-weight: 600;
+}
+
+.wp-list-table .column-title a.row-title:hover {
+    color: #005177;
+    text-decoration: underline;
+}
+
+/* Mejorar el aspecto de la fila seleccionada */
+.wp-list-table tr.iedit.selected {
+    background: #f1f8ff;
+}
+
+/* Ajuste para el botón de acciones */
+.wp-list-table .row-actions {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Responsive: permitir scroll horizontal si la tabla es muy ancha */
+.wp-list-table {
+    display: block;
+    overflow-x: auto;
+}
+
+/*********** Tablas tipo WordPress admin */
+.wp-list-table th,
+.wp-list-table td {
+    /* vertical-align: middle;
+    font-size: 14px; */
+    white-space: nowrap;
+    width: 1%;
+    /* min-width: 120px; */
+    max-width: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wp-list-table .column-primary {
+    font-weight: 600;
+}
+
+.wp-list-table .button {
+    margin: 0 2px;
+}
+
+/* Botón principal admin */
+.button-primary {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    box-shadow: none;
+}
+
+.button-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+/* Notificaciones, badges, etc. */
+.registro-estado-label {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.registro-estado-inicial {
+    background: #fffbe5;
+    color: #b38600;
+    border: 1px solid #ffe066;
+}
+
+.registro-estado-cancelada {
+    background: #ffeaea;
+    color: #d63638;
+    border: 1px solid #d63638;
+}
+
+.registro-estado-vista {
+    background: #eaf6ff;
+    color: #2271b1;
+    border: 1px solid #2271b1;
+}
+
+.registro-estado-icon {
+    margin-right: 4px;
+}
+
+/* Otros estilos globales a migrar aquí... */

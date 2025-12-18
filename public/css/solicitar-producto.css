@@ -1,0 +1,123 @@
+/* Notificaciones del formulario de solicitud */
+
+.public-form-insert {
+    position: relative;
+    padding: 12px 40px 12px 16px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: opacity 0.2s;
+    /* color, background y border se definen en las clases específicas */
+}
+
+.public-form-insert-error {
+    background: #ffeaea;
+    border: 1px solid #e74c3c;
+    color: #c0392b;
+}
+.public-form-insert-success {
+    background: #eaffea;
+    border: 1px solid #27ae60;
+    color: #229954;
+}
+.public-form-insert-loading {
+    background: #eaf4ff;
+    border: 1px solid #2980b9;
+    color: #2471a3;
+}
+
+.public-form-insert-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent !important;
+    border: none !important;
+    font-size: 18px !important;
+    color: #888 !important;
+    cursor: pointer;
+    line-height: 1 !important;
+    padding: 0 !important;
+    z-index: 2 !important;
+}
+
+.public-form-insert-close:hover {
+    color: #333 !important;
+    font-size: 20px !important;
+}
+
+/* Estilos para el formulario */
+.public-form-insert-container {
+    max-width: 420px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 24px 18px;
+}
+
+.public-form-insert-wrapper {
+    width: 100%;
+}
+
+.public-form-insert-group {
+    margin-bottom: 16px;
+}
+
+.public-form-insert-group label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+    color: #222;
+}
+
+
+.public-form-insert-group input,
+.public-form-insert-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #fafbfc;
+    transition: border-color 0.2s;
+}
+.public-form-insert-group textarea {
+    resize: none;
+}
+.public-form-insert-group input:focus,
+.public-form-insert-group textarea:focus {
+    border-color: #0073aa;
+    outline: none;
+}
+
+.public-form-insert-group input[type="datetime-local"] {
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: #f3f6fa;
+}
+
+.public-form-insert-container h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: #0073aa;
+}
+
+.public-form-insert-container input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.public-form-insert-container input[type="submit"]:hover {
+    background: #005177;
+}

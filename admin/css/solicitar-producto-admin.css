@@ -1,0 +1,121 @@
+/* Fila resaltada para solicitud no leida */
+.no-leida-row {
+    background-color: rgba(98, 170, 238, 0.2) !important;
+}
+
+/* Submenús de estado: color en la letra y espacio para iconos, usando el ID del menú */
+#menu-posts-solicitud_producto .wp-submenu li.registro-estado-inicial-menu:not(.wp-first-item)>a {
+    color: #f7b731 !important;
+    font-weight: 600;
+}
+
+#menu-posts-solicitud_producto .wp-submenu li.registro-estado-vista-menu:not(.wp-first-item)>a {
+    color: #3498db !important;
+    font-weight: 600;
+}
+
+#menu-posts-solicitud_producto .wp-submenu li.registro-estado-pagada-menu:not(.wp-first-item)>a {
+    color: #27ae60 !important;
+    font-weight: 600;
+}
+
+#menu-posts-solicitud_producto .wp-submenu li.registro-estado-cancelada-menu:not(.wp-first-item)>a {
+    color: #e74c3c !important;
+    font-weight: 600;
+}
+
+#menu-posts-solicitud_producto .wp-submenu li .registro-estado-icon {
+    font-size: 1.1em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* La opción 'Todos los estados' siempre fondo blanco */
+select[name="solicitud_estado"] option[value=""] {
+    background: #fff !important;
+    color: #000;
+}
+
+
+#solicitud_producto_detalles .handle-actions {
+    display: none !important;
+}
+
+.page-title-action {
+    display: none !important;
+}
+
+#poststuff #titlediv,
+#poststuff #post-body-content,
+#poststuff #edit-slug-box,
+#poststuff #minor-publishing,
+#poststuff #add-post-object-box,
+#poststuff .block-editor-block-list__layout,
+#poststuff .editor-post-title {
+    display: none !important;
+}
+
+.registro-estado-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    min-width: 80px;
+    background: rgba(0, 0, 0, 0.15);
+    /* fallback para opacidad */
+}
+
+/* Eliminar fondo y borde redondeado SOLO en los submenús de estado */
+#adminmenu .wp-submenu li.registro-estado-inicial-menu:not(.wp-first-item),
+#adminmenu .wp-submenu li.registro-estado-vista-menu:not(.wp-first-item),
+#adminmenu .wp-submenu li.registro-estado-pagada-menu:not(.wp-first-item),
+#adminmenu .wp-submenu li.registro-estado-cancelada-menu:not(.wp-first-item) {
+    background: none !important;
+    min-width: 0 !important;
+}
+
+.registro-estado-pagada {
+    background: rgba(39, 174, 96, 0.8) !important;
+    color: #000;
+}
+
+.registro-estado-vista {
+    background: rgba(52, 152, 219, 0.8) !important;
+    color: #000;
+}
+
+.registro-estado-inicial {
+    background: rgba(247, 183, 49, 0.8) !important;
+    color: #000;
+}
+
+.registro-estado-cancelada {
+    background: rgba(231, 76, 60, 0.8) !important;
+    color: #000;
+}
+
+/* Estilos básicos para los <option> del select de Estado en el metabox */
+select[name="solicitud_estado"] option[value="Inicial"] {
+    background: rgba(247, 183, 49, 0.8);
+    color: #000;
+}
+
+select[name="solicitud_estado"] option[value="Vista"] {
+    background: rgba(52, 152, 219, 0.8);
+    color: #000;
+}
+
+select[name="solicitud_estado"] option[value="Pagada"] {
+    background: rgba(39, 174, 96, 0.8);
+    color: #000;
+}
+
+select[name="solicitud_estado"] option[value="Cancelada"] {
+    background: rgba(231, 76, 60, 0.8);
+    color: #000;
+}
